@@ -42,7 +42,16 @@ Alternative you can use [Spring Boot Maven plugin](https://docs.spring.io/spring
 mvn spring-boot:run
 ```
 
-## Endpoints
+## Endpoints 
+- Login (para obtener JWT)
+  - http://localhost:8080/login 
+  
+  ```json
+    {
+      "username": "mito",
+      "password": "123456"
+    }
+  ```
 - CRUD Cursos
   - http://localhost:8080/api/v1/courses 
 - CRUD Estudiantes
